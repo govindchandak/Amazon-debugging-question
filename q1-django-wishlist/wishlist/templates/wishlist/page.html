@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ customer }}'s wishlist</title>
+</head>
+<body>
+  <h1>{{ customer }}'s wishlist</h1>
+
+  <ul>
+    {% for item in items %}
+      <li>{{ item.product.name }} - ₹{{ item.product.price }}</li>
+    {% empty %}
+      <li>Your wishlist is empty.</li>
+    {% endfor %}
+  </ul>
+
+  <p>Total: ₹{{ total }}</p>
+</body>
+</html>
