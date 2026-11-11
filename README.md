@@ -1,6 +1,6 @@
 # Amazon Debugging Round: Practice Repo
 
-Four small web apps with planted bugs. Your job: **fix the code until every test passes.** This is the same kind of task as the repository round in the Amazon SDE online assessment.
+Small web apps with planted bugs, in all three stacks Amazon offers (Django, Spring Boot, Node.js). Your job: **fix the code until every test passes.** This is the same kind of task as the repository round in the Amazon SDE online assessment.
 
 **Study guide (read this first):** https://claude.ai/artifact/7QJHdELhxxMc3JgbBnoRDe
 
@@ -8,16 +8,19 @@ Four small web apps with planted bugs. Your job: **fix the code until every test
 
 | # | App | Stack | Level | Bugs | Time |
 |---|---|---|---|---|---|
+| Sample | [HelpDesk (worked example)](sample-helpdesk) | Django, Spring Boot, Node.js | Example | 9 | 60 min |
 | Q1 | [Wishlist](q1-django-wishlist) | Django | Easy | 3 | 30 min |
 | Q2 | [Parcel Locker](q2-django-parcel-locker) | Django | Medium | 4 | 45 min |
 | Q3 | [Task Board](q3-spring-task-board) | Spring Boot | Easy | 3 | 30 min |
 | Q4 | [Returns Desk](q4-spring-returns-desk) | Spring Boot | Medium | 4 | 45 min |
+| Q5 | [Gift Card Wallet](q5-node-gift-wallet) | Node.js (Express) | Easy | 3 | 30 min |
+| Q6 | [Gym Class Booking](q6-node-gym-booking) | Node.js (Express) | Medium | 5 | 50 min |
 
-Start with the Easy question in your stack. Each folder's README is the task.
+Start with the worked example in your stack (the guide walks through all 9 bugs), then the Easy and Medium questions. Each folder's README is the task.
 
 ## Setup
 
-You need Git, Python 3.10+, Java 17+, and VS Code (or IntelliJ IDEA for Spring Boot).
+You need Git and VS Code, plus your stack: Python 3.10+ (Django), Java 17+ with Maven or IntelliJ IDEA (Spring Boot), or Node.js 18+ (Node).
 
 ```bash
 git clone https://github.com/govindchandak/Amazon-debugging-question.git
@@ -34,6 +37,7 @@ pip install -r q1-django-wishlist/requirements.txt
 |---|---|
 | Django | `cd q1-django-wishlist` then `python manage.py test` |
 | Spring Boot | `cd q3-spring-task-board` then `mvn test` (or Run the test class in IntelliJ) |
+| Node.js | `cd q5-node-gift-wallet` then `npm install` and `npm test` |
 
 ## The AI coach
 
