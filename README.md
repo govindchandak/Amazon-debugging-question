@@ -15,8 +15,9 @@ Small web apps with planted bugs, in all three stacks Amazon offers (Django, Spr
 | Q4 | [Returns Desk](q4-spring-returns-desk) | Spring Boot | Medium | 4 | 45 min |
 | Q5 | [Gift Card Wallet](q5-node-gift-wallet) | Node.js (Express) | Easy | 3 | 30 min |
 | Q6 | [Gym Class Booking](q6-node-gym-booking) | Node.js (Express) | Medium | 5 | 50 min |
+| **Bootcamp** | [PlaceMate: 6 missions, Python → Django → Amazon-level challenge](django-placemate-bootcamp) | Django | Easy → Amazon level | 30 | 3 hours |
 
-Start with the worked example in your stack (the guide walks through all 9 bugs), then the Easy and Medium questions. Each folder's README is the task.
+**Django students: do the [PlaceMate bootcamp](django-placemate-bootcamp) mission by mission with your trainer (Mission 1 → 6).** Then start with the worked example in your stack (the guide walks through all 9 bugs), then the Easy and Medium questions. Each folder's README is the task.
 
 ## Setup
 
